@@ -1,0 +1,8 @@
+
+
+- User can pick a side between two options
+- user choice should be displayed when a user picks an option
+- The goal of the current stage of the game should alaways be displayed
+- An accumulator to hold user current score
+- Upon loading the app, the state variables should be initialized
+- A handler function to hand the click event corresponding to player choice of move

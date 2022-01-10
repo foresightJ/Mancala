@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+/* CSS Custom Properties */
+:root {
+  --main-bg: #4a4e4d;
+  --top-menu-bg: #0e9aa7;
+  --sub-menu-bg: #3da4ab;
+  --right-curved-edge: 45px;
+  --left-curved-edge: 45px;
+}
+
+body {
+  background-color: #caa953;
+}
+
+#top-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--top-menu-bg);
+  height: 100%;
+}
+
+#gameboard {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  width: 800px;
+  height: 400px;
+  margin: auto;
+  margin-top: 7rem;
+
+  background: #c2b280;
+  mix-blend-mode: normal;
+  border-radius: 45px;
+  /* transform: rotate(-90.2deg); */
+}
+
+.row {
+  border: 2px solid black;
+  width: inherit;
+  height: inherit;
+}
+
+#player1 {
+  display: flex;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  justify-content: space-between;
+
+  /* border-bottom-style: none; */
+}
+
+#player2 {
+  display: flex;
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  justify-content: space-between;
+
+  /* border-top-style: none; */
+}
+
+.flex-items {
+  display: flex;
+}
+
+.pit {
+  display: flex;
+  border: 2px solid darkgoldenrod;
+  height: 205px;
+  width: 245px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.edge1 {
+  border-top-left-radius: 45px;
+}
+.edge2 {
+  border-top-right-radius: 45px;
+}
+.edge3 {
+  border-bottom-left-radius: 45px;
+}
+.edge4 {
+  border-bottom-right-radius: 45px;
+}
+/* 
+element {
+  background-color: var(--main-bg-color);
+} */
